@@ -7,7 +7,7 @@ A Next.js 13 template for building applications Tailwind CSS.
 - Next.js 13
 - TypeScript
 - Tailwind CSS
-- Fonts with `@next/font`
+- Fonts with `next/font`
 
 ## Tailwind CSS - configuration
 
