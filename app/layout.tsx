@@ -1,5 +1,6 @@
-import { Inter } from '@next/font/google'
 import type { Metadata } from 'next'
+
+import { Inter } from '@next/font/google'
 
 import '@/styles/globals.css'
 
@@ -7,8 +8,8 @@ import { LayoutProps } from '@/types/next'
 
 import { cn } from '@/lib/cn'
 
-import { Analytics } from '@/components/common/analytics'
-import { BreakpointsIndicator } from '@/components/common/breakpoints-indicator'
+import { Analytics } from '@/components/analytics'
+import { BreakpointsIndicator } from '@/components/breakpoints-indicator'
 
 const inter = Inter({
   variable: '--font-sans',

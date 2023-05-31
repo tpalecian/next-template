@@ -11,7 +11,7 @@ export default function Page() {
           <Image
             src="/thirteen.svg"
             alt="Thirteen"
-            width={40}
+            width={180}
             height={31}
             priority
           />
