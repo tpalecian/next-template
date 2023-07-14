@@ -19,11 +19,11 @@ export default function Page() {
       </div>
 
       <div
-        className="absolute top-0 left-0 z-[-2] h-full w-full origin-top"
+        className="absolute left-0 top-0 z-[-2] h-full w-full origin-top"
         aria-hidden="true"
       >
-        <div className="absolute top-[10%] left-0 h-4/6 w-2/3 rounded-[50%] bg-blue-200 blur-[200px]"></div>
-        <div className="absolute top-[10%] right-0 h-4/6 w-2/3 rounded-[50%] bg-purple-200 blur-[200px]"></div>
+        <div className="absolute left-0 top-[10%] h-4/6 w-2/3 rounded-[50%] bg-blue-200 blur-[200px]"></div>
+        <div className="absolute right-0 top-[10%] h-4/6 w-2/3 rounded-[50%] bg-purple-200 blur-[200px]"></div>
       </div>
     </section>
   )

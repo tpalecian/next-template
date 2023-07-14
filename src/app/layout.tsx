@@ -1,21 +1,13 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
 import '@/styles/globals.css'
 
-import { LayoutProps } from '@/types/next'
+import type { Metadata } from 'next'
 
-import { cn } from '@/lib/cn'
+import { inter } from '@/styles/fonts'
+
+import { cn } from '@/lib/utils/cn'
 
 import { Analytics } from '@/components/analytics'
 import { BreakpointsIndicator } from '@/components/breakpoints-indicator'
-
-const inter = Inter({
-  variable: '--font-sans',
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   title: {
@@ -29,7 +21,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({ children }: LayoutProps) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
       <body className={cn('h-full font-sans', inter.variable)}>

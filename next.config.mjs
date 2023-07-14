@@ -12,9 +12,6 @@ const ContentSecurityPolicy = `
 const nextConfig = {
   reactStrictMode: true,
 
-  experimental: {
-    appDir: true,
-  },
   headers() {
     return [
       {
