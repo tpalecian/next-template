@@ -23,11 +23,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="h-full">
-      <body className={cn('h-full font-sans', inter.variable)}>
+    <html lang="en" className={inter.variable}>
+      <body>
         {children}
-        <Analytics />
+
         <BreakpointsIndicator />
+        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )
